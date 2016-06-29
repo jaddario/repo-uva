@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+/*
+ * Ler um inteiro n e imprimir seus divisores.
+ */
+public class Lista02Ex09 {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+
+	}
+}

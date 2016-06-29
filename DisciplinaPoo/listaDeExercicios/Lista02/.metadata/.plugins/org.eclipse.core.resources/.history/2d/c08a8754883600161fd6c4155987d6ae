@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+/*
+ * O número 3025 possui a seguinte característica: 30 + 25 = 55 => 55*55 = 3025. Fazer um
+ * programa para obter todos os números de 4 algarismos com a mesma característica do número
+ * 3025.
+ */
+public class Lista02Ex05 {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite o numero a ser analisado: \n");
+		String numeroASerAnalisado = entrada.nextLine();
+		
+		System.out.println(numeroASerAnalisado.substring(0, 2));
+		System.out.println(numeroASerAnalisado.substring(2, 4));
+		
+		
+	}
+}

@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+/*
+ * Ler o número de horas trabalhadas e o valor da hora e calcular o salário semanal de um
+ * trabalhador. Até 40 h/semana não se acrescenta nenhum adicional. Acima de 40h e até 50h há
+ * um bônus de 20% para as horas que ultrapassarem 40h. Acima de 50h há um bônus de 100%
+ * para as horas que ultrapassarem 50h.
+ */
+public class Lista01Ex07 {
+	public static void main(String[] args) {
+		Scanner entradaDeDados = new Scanner(System.in);
+		int horasTrabalhadas;
+		float valorDaHoraTrabalhada;
+
+		System.out.println("Digite a quantidade de horas trabalhadas: \n");
+		horasTrabalhadas = entradaDeDados.nextInt();
+
+		System.out.println("Digite o valor de trabalho: \n");
+		valorDaHoraTrabalhada = entradaDeDados.nextFloat();
+
+		System.out.printf("O salário semanal é: R$%.2f",
+				calculaSalarioSemanal(horasTrabalhadas, valorDaHoraTrabalhada));
+
+	}
+
+	private static float calculaSalarioSemanal(int horasTrabalhadas, float valorDaHoraTrabalhada) {
+		float salarioSemanalBase, bonus;
+		salarioSemanalBase = valorDaHoraTrabalhada * horasTrabalhadas;
+
+		if (horasTrabalhadas <= 40) {
+			return salarioSemanalBase;
+		} else if (horasTrabalhadas > 40 && horasTrabalhadas < 50) {
+			bonus = 0.2f;
+			return salarioSemanalBase + (valorDaHoraTrabalhada * (horasTrabalhadas - 40)) * bonus;
+		} else {
+			bonus = 1f;
+			return salarioSemanalBase + (valorDaHoraTrabalhada * (horasTrabalhadas - 50)) * bonus;
+		}
+	}
+
+}

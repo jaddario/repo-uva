@@ -1,0 +1,19 @@
+
+public class AlunoAcademia {
+	private float peso;
+	private float altura;
+
+	public AlunoAcademia(float peso, float altura) {
+		this.peso = peso;
+		this.altura = altura;
+	}
+	
+	public float imc(){
+		return peso /(altura * altura);
+	}
+	
+	public float pesoMinimo(){
+		return 18.5f * (altura * altura);
+	}
+	
+}

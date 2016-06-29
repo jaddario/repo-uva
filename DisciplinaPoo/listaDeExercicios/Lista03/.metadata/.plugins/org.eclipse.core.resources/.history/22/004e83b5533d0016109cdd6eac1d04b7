@@ -1,0 +1,9 @@
+
+public class Onibus {
+private int quantidadeMaximaDePassageiros;
+private int quantidadeAtualDePassageiros;	
+	public boolean entrar(int qtdPassageiros){
+		quantidadeAtualDePassageiros+=qtdPassageiros;
+		return (quantidadeAtualDePassageiros > quantidadeMaximaDePassageiros);
+	}
+}

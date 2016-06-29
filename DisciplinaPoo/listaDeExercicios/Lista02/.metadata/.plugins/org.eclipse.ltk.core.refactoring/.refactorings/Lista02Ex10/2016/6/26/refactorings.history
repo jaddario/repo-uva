@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;i&apos; in &apos;Lista02Ex10.main(...)&apos; to &apos;divisor&apos;&#x0A;- Original project: &apos;Lista02Ex10&apos;&#x0A;- Original element: &apos;Lista02Ex10.main(String[]).i&apos;&#x0A;- Renamed element: &apos;i&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;i&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Lista02Ex10.java[Lista02Ex10~main~\[QString;@i!336!344!340!340!I!0!false" name="divisor" references="true" stamp="1466771272149" version="1.0"/>
+</session>

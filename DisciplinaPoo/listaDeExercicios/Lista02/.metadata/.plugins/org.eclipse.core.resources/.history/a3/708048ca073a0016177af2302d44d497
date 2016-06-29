@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+/*
+ * Ler um inteiro n e imprimir se ele é ou não primo.
+ */
+public class Lista02Ex10 {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Digite o numero para verificar se ele é ou não primo: ");
+
+		int numeroAnalisado = entrada.nextInt();
+
+		for (int divisor = 1; divisor <= numeroAnalisado; divisor++) {
+			if (numeroAnalisado % divisor == 0) {
+
+			}
+		}
+
+	}
+
+}

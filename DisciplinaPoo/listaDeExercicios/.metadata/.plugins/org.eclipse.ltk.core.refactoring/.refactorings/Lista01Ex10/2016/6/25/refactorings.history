@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Lista01Ex10.isAValidNumber(...)&apos; to &apos;ehUmNumeroValido&apos;&#x0A;- Original project: &apos;Lista01Ex10&apos;&#x0A;- Original element: &apos;Lista01Ex10.isAValidNumber(...)&apos;&#x0A;- Renamed element: &apos;Lista01Ex10.ehUmNumeroValido(...)&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;isAValidNumber&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{Lista01Ex10.java[Lista01Ex10~isAValidNumber~I" name="ehUmNumeroValido" references="true" stamp="1466033213080" version="1.0"/>
+</session>

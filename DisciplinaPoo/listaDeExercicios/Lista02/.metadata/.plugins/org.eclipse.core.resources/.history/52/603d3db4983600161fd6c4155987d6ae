@@ -1,0 +1,7 @@
+/*
+ * Ler valores positivos inteiros até que um valor negativo seja digitado pelo usuário. Ao final
+ * imprimir a média dos números pares e a média dos números ímpares.
+ */
+public class Lista02Ex08 {
+
+}

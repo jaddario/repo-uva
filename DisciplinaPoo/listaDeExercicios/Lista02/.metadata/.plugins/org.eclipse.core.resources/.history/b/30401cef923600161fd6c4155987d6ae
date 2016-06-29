@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+/*
+ * Ler números inteiros até que o usuário digite zero ou um número negativo. Ao final imprimir a
+ * soma e a média aritmética dos números digitados, o menor e o maior número
+ */
+public class Lista02Ex07 {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		int numeroN;
+
+		for (;;) {
+			System.out.println("Digite os numeros para calcular a média. \n");
+
+			numeroN = entrada.nextInt();
+
+			if ((numeroN == 0) || (numeroN < 0)) {
+				break;
+			}
+
+		}
+
+	}
+}

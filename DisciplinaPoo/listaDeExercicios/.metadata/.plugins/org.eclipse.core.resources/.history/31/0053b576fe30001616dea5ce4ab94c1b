@@ -1,0 +1,10 @@
+/*
+ * Ler uma temperatura e a escala (C-Celsius ou F- Fahrenheit ) e convertê-la para a outra escala.
+ * Ou seja, se o usuário informar a temperatura em Celsius esta deverá convertida para Fahrenheit
+ * e vice-versa. Fórmulas:
+ * C = 5*((F-32)/9)
+ * F = ((9*C)/5)+32
+ */
+public class Lista01Ex05 {
+
+}

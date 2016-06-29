@@ -1,0 +1,32 @@
+
+public class Produto {
+	private int código;
+	private String descrição;
+	private float precoDeCusto;
+	private float precoDeVenda;
+	private float margemDeLucro;
+
+	public Produto(int código, String descrição, float precoDeCusto) {
+		this.código = código;
+		this.descrição = descrição;
+		this.precoDeCusto = precoDeCusto;
+	}
+
+	public float getPrecoDeVenda() {
+		return precoDeVenda;
+	}
+
+	public float getMargemDeLucro() {
+		return margemDeLucro;
+	}
+
+	public void setMargemLucro(float percentual) {
+		margemDeLucro = percentual;
+		precoDeVenda = precoDeCusto + (precoDeCusto * margemDeLucro);
+	}
+	
+	public void setPrecoVenda(float valor) {
+		precoDeVenda = valor;
+		margemDeLucro = precoDeVenda - precoDeCusto;
+	}
+}

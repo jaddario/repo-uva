@@ -1,0 +1,9 @@
+/*
+ * Ler 3 valores numéricos e imprimir a soma 
+ * dos 2 maiores e a diferença dos 2 menores.
+ */
+public class Lista01Ex02 {
+	public static void main(String[] args) {
+
+	}
+}

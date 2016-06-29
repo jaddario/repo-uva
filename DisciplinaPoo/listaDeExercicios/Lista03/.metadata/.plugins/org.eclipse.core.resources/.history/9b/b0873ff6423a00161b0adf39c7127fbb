@@ -1,0 +1,16 @@
+
+public class Numero {
+	private float numero;
+
+	public Numero(float numero) {
+		this.numero = numero;
+	}
+	
+	public float fatorial(){
+		float fatorialDoNumero= 0;
+		fatorialDoNumero
+		
+		return fatorialDoNumero;
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class Onibus {
+	private int quantidadeMaximaDePassageiros;
+	private int quantidadeAtualDePassageiros;
+
+	
+	
+	public Onibus(int quantidadeMaximaDePassageiros) {
+		this.quantidadeMaximaDePassageiros = quantidadeMaximaDePassageiros;
+	}
+
+
+
+	public boolean entrar(int qtdPassageiros) {
+		quantidadeAtualDePassageiros += qtdPassageiros;
+		return (quantidadeAtualDePassageiros > quantidadeMaximaDePassageiros);
+	}
+}

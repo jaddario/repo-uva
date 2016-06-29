@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+/*
+ * Ler uma temperatura e a escala (C-Celsius ou F- Fahrenheit ) e convertê-la para a outra escala.
+ * Ou seja, se o usuário informar a temperatura em Celsius esta deverá convertida para Fahrenheit
+ * e vice-versa. Fórmulas:
+ * C = 5*((F-32)/9)
+ * F = ((9*C)/5)+32
+ */
+public class Lista01Ex05 {
+	public static void main(String[] args) {
+		Scanner entradaDeTemperatura = new Scanner(System.in);
+		float celsius, fahrenheit;
+		System.out.println("Digite a temperatura e informe com C ou F a escala usada: \n");
+		String temperatura = entradaDeTemperatura.nextLine().toUpperCase();
+		
+		
+		System.out.println(temperatura.charAt(temperatura.length()));
+	}
+}

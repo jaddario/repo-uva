@@ -1,0 +1,7 @@
+/*
+ * Ler um número inteiro n e imprimir o valor de H, dado pela série abaixo. Se n for menor ou
+ * igual a ZERO, imprimir uma mensagem de erro.
+ */
+public class Lista02Ex15 {
+
+}

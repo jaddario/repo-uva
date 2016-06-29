@@ -1,0 +1,11 @@
+INDEX VERSION 1.127+/home/joseaddario/DisciplinaPoo/listaDeExercicios/.metadata/.plugins/org.eclipse.jdt.core
+3433967850.index
+3167011941.index
+1389012297.index
+2729587005.index
+634230239.index
+3418617075.index
+1437032784.index
+3262494936.index
+3044182094.index
+580932038.index

@@ -1,0 +1,8 @@
+/*
+ * Ler um número inteiro k e imprimir todos os números primos no intervalo de 1 a k.
+ */
+public class Lista02Ex11 {
+	public static void main(String[] args) {
+
+	}
+}

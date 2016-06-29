@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+/*
+ * Ler um número inteiro k e imprimir todos os números primos no intervalo de 1 a k.
+ */
+public class Lista02Ex11 {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+
+		System.out.println("Digite o limite do intervalo: ");
+		int limiteDoIntervalo = entrada.nextInt();
+
+		for (int numeroASerAnalisado = 0; numeroASerAnalisado <= limiteDoIntervalo; numeroASerAnalisado++) {
+			if (ehPrimo(numeroASerAnalisado)) {
+				System.out.println(numeroASerAnalisado);
+			}
+		}
+	}
+
+	private static boolean ehPrimo(int numeroASerAnalisado) {
+		int divisor = 1, numeroDeDivisores = 0;
+
+		while (divisor < numeroASerAnalisado) {
+			if (numeroASerAnalisado % divisor == 0) {
+				numeroDeDivisores++;
+			}
+			divisor++;
+		}
+
+		if (numeroDeDivisores == 1) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+}

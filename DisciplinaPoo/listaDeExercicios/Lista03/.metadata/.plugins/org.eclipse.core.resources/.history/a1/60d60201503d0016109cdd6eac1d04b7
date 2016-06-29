@@ -1,0 +1,27 @@
+
+public class Produto {
+	private int código;
+	private String descrição;
+	private float precoDeCusto;
+	private float precoDeVenda;
+	private float margemDeLucro;
+
+	public Produto(int código, String descrição, float precoDeCusto) {
+		this.código = código;
+		this.descrição = descrição;
+		this.precoDeCusto = precoDeCusto;
+	}
+
+	// que deverá alterar a margem de lucro e calcular o preço de venda
+	// correspondente.
+	private void setMargemLucro(float percentual) {
+		margemDeLucro = margemDeLucro + margemDeLucro * percentual;
+		precoDeVenda = precoDeCusto + margemDeLucro;
+	}
+
+	// que deverá alterar o preço de venda e calcular a margem de lucro
+	// correspondente.
+	void setPrecoVenda(float valor) {
+
+	}
+}

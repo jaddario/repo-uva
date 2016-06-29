@@ -1,0 +1,8 @@
+/*
+ * Ler os números inteiros x e n e calcular e x elevado a n.
+ */
+public class Lista02Ex12 {
+	public static void main(String[] args) {
+		
+	}
+}

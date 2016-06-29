@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+/*
+ * Ler 3 valores numéricos e imprimir a soma 
+ * dos 2 maiores e a diferença dos 2 menores.
+ */
+public class Lista01Ex02 {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		int[] numerosEscolhidos = new int[3];
+
+		// Lendo os tres numeros:
+		int index = 0;
+		while (index < 3) {
+			System.out.printf("Digite o %dº numero: \n", index + 1);
+			numerosEscolhidos[index] = entrada.nextInt();
+			index++;
+		}
+		// Ordenando o vetor:
+		int maiorNumero = 0;
+		
+		for (int j = 0; j < numerosEscolhidos.length; j++) {
+			if (numerosEscolhidos[j] > maiorNumero) {
+				maiorNumero = numerosEscolhidos[j];
+			}
+		}
+
+	}
+}

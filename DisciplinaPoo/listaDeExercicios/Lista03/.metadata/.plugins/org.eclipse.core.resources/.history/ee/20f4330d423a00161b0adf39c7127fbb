@@ -1,0 +1,9 @@
+
+public class Numero {
+	private float numero;
+
+	public Numero(float numero) {
+		this.numero = numero;
+	}
+
+}

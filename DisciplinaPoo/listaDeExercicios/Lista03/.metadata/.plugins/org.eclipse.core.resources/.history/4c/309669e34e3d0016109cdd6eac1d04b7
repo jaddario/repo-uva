@@ -1,0 +1,14 @@
+
+public class Produto {
+	private int código; 
+	private String descrição; 
+	private float precoDeCusto; 
+	private float precoDeVenda; 
+	private float margemDeLucro;
+	
+	public Produto(int código, String descrição, float precoDeCusto) {
+		this.código = código;
+		this.descrição = descrição;
+		this.precoDeCusto = precoDeCusto;
+	}
+}

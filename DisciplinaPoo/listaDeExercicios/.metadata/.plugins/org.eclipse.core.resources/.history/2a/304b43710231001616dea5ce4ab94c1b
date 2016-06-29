@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+/*
+ * Ler o número de horas trabalhadas e o valor da hora do professor e imprimir o salário bruto e
+ * líquido, sabendo que o desconto do IR segue a fórmula:
+ * Salário menor ou igual a R$ 1200,00 – desconto ZERO
+ * Salário maior que R$1200,00 e menor ou igual a R$ 1800,00 – desconto de 10%
+ * Salário maior que R$1800,00 e menor ou igual a R$ 2200,00 – desconto de 15%
+ * Salário maior que R$2200,00 – desconto de 27,5% 
+ */
+public class Lista01Ex06 {
+	public static void main(String[] args) {
+		Scanner entradaDeDados = new Scanner(System.in);
+	}
+}
